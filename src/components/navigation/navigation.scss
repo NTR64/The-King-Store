@@ -1,0 +1,32 @@
+.navigation {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 0 5%;
+  color: pink;
+  
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 1.5rem;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+
+    .nav-link {
+      padding: 1rem;
+      cursor: pointer;
+      color: pink;
+      font-size: 2.2rem;
+    }
+  }
+}
